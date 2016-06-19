@@ -1,6 +1,5 @@
 function EventCollector() {
   this.events = [];
-  this.message = "Another message";
 }
 
 EventCollector.prototype.fetchEvents = function(lat, lon) {
