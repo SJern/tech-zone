@@ -1,5 +1,6 @@
 function EventCollector() {
   this.events = [];
+  this.message = "Hahaha it's Steven's catch phrase for debugging"
 }
 
 EventCollector.prototype.fetchEvents = function(lat, lon) {
